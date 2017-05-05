@@ -8164,29 +8164,9 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-/* Start @font-face */
-@font-face {
-  font-family: "Didot";
-  src: url('../fonts/Didot/Didot.eot?1439448052');
-  src: url('../fonts/Didot/Didot.eot?&1439448052#iefix') format('embedded-opentype'), url('../fonts/Didot/Didot.woff?1439448052') format('woff'), url('../fonts/Didot/Didot.ttf?1439448052') format('truetype'), url('../fonts/Didot/DIdot.svg?1439448052') format('svg');
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Gotham";
-  src: url('../fonts/Gotham/Gotham-Book.eot?1439448704');
-  src: url('../fonts/Gotham/Gotham-Book.eot?&1439448704#iefix') format('embedded-opentype'), url('../fonts/Gotham/Gotham-Book.woff?1439448706') format('woff'), url('../fonts/Gotham/Gotham-Book.ttf?1439448704') format('truetype'), url('../fonts/Gotham/Gotham-Book.svg?1439448706') format('svg');
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Gotham";
-  src: url('../fonts/Gotham/Gotham-Bold.eot?1439448724');
-  src: url('../fonts/Gotham/Gotham-Bold.eot?&1439448724#iefix') format('embedded-opentype'), url('../fonts/Gotham/Gotham-Bold.woff?1439448724') format('woff'), url('../fonts/Gotham/Gotham-Bold.ttf?1439448724') format('truetype'), url('../fonts/Gotham/Gotham-Bold.svg?1439448724') format('svg');
-  font-weight: 700;
-}
-/* End @font-face */
 /* line 17, ../sass/partials/_typography.scss */
 h2 {
-  font-family: "Didot";
+  font-family: 'Amatic SC', cursive;
   font-size: 30px;
 }
 
@@ -8198,7 +8178,7 @@ h2 {
 
 /* line 27, ../sass/partials/_typography.scss */
 p {
-  font-family: "Gotham", sans-serif;
+  font-family: 'Catamaran', sans-serif;
   font-size: 16px;
   color: #6c6d70;
   line-height: 1.8;
@@ -8292,7 +8272,7 @@ img {
 .hero-title-image {
   width: 350px;
   height: 500px;
-  background-image: url(../images/alex-vivi-title.png);
+  background-image: url(../img/gallery1.jpg);
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -8376,7 +8356,7 @@ section.intro {
 /* ------- Wedding Info ------ */
 /* line 140, ../sass/partials/_layout.scss */
 section.wedding-info {
-  background-color: #ffd9d9;
+  background-color: #ffffff;
   position: relative;
   z-index: 4;
   padding-top: 300px;
@@ -8727,7 +8707,7 @@ section.instagram-feed {
 /* line 434, ../sass/partials/_layout.scss */
 section.about-us {
   position: relative;
-  background-image: url(../images/about-us-wedding.jpg);
+  background-image: url(../img/gallery1.jpg);
   -moz-background-size: 100%;
   -o-background-size: 100%;
   -webkit-background-size: 100%;
@@ -8940,7 +8920,7 @@ section.about-us.toTop {
 }
 /* line 588, ../sass/partials/_layout.scss */
 .info-text h1 {
-  font-family: Didot;
+  font-family: 'Amatic SC', cursive;
   font-size: 50px;
   text-transform: uppercase;
   margin-bottom: 70px;
@@ -9207,7 +9187,7 @@ footer a:focus {
   display: inline-block;
   padding-bottom: 5px;
   border-bottom: solid 1px transparent;
-  font-family: "Gotham", sans-serif;
+  font-family: 'Catamaran', sans-serif;
   font-size: 16px;
   font-weight: 500;
   color: #ffd9d9;
@@ -9279,7 +9259,7 @@ footer a:focus {
 .instagram-feed .nav-tabs li a {
   border: none;
   border-radius: 0;
-  font-family: "Gotham", sans-serif;
+  font-family: 'Catamaran', sans-serif;
   font-size: 18px;
   cursor: pointer;
 }
@@ -9299,7 +9279,7 @@ footer a:focus {
 
 /* line 10, ../sass/partials/_button.scss */
 .btn-pink {
-  font-family: "Gotham", sans-serif;
+  font-family: 'Catamaran', sans-serif;
   font-size: 18px;
   font-weight: 700;
   background-color: #fe3957;
@@ -9335,7 +9315,7 @@ footer a:focus {
 
 /* line 18, ../sass/partials/_button.scss */
 .btn-transparent {
-  font-family: "Gotham", sans-serif;
+  font-family: 'Catamaran', sans-serif;
   font-size: 18px;
   font-weight: 700;
   background-color: transparent;
