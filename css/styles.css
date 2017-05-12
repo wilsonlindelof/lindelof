@@ -8240,7 +8240,7 @@ img {
 /* ------- Hero ------ */
 /* line 48, ../sass/partials/_layout.scss */
 .hero {
-  background-image: url(../img/cwhero.jpg);
+  background-image: url(../img/hero_lake2.jpg);
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -8272,7 +8272,7 @@ img {
 .hero-title-image {
   width: 350px;
   height: 500px;
-  background-image: url(../img/gallery1.jpg);
+  background-image: url(../img/catieandwilsonwhite.png);
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -8280,7 +8280,7 @@ img {
   background-repeat: no-repeat;
   position: fixed;
   z-index: 0;
-  top: 150px;
+  top: 200px;
   right: 15%;
 }
 @media (max-width: 1024px) {
@@ -8351,6 +8351,64 @@ section.intro {
   -ms-transform: rotate(-8deg);
   -webkit-transform: rotate(-8deg);
   transform: rotate(-8deg);
+}
+
+/*-- Registry -- */
+section.registry {
+  background-color: #ffffff;
+  position: relative;
+  z-index: 4;
+  padding-top: 300px;
+  padding-bottom: 225px;
+}
+@media (max-width: 1200px) {
+  /* line 140, ../sass/partials/_layout.scss */
+  section.registry {
+    padding-top: 250px;
+  }
+}
+@media (max-width: 1024px) {
+  /* line 140, ../sass/partials/_layout.scss */
+  section.registry {
+    padding-top: 175px;
+    padding-bottom: 175px;
+  }
+}
+@media (max-width: 768px) {
+  /* line 140, ../sass/partials/_layout.scss */
+  section.registry {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+/*-- Map -- */
+section.map {
+  background-color: #ffffff;
+  position: relative;
+  z-index: 4;
+  padding-top: 300px;
+  padding-bottom: 225px;
+}
+@media (max-width: 1200px) {
+  /* line 140, ../sass/partials/_layout.scss */
+  section.map {
+    padding-top: 250px;
+  }
+}
+@media (max-width: 1024px) {
+  /* line 140, ../sass/partials/_layout.scss */
+  section.map {
+    padding-top: 175px;
+    padding-bottom: 175px;
+  }
+}
+@media (max-width: 768px) {
+  /* line 140, ../sass/partials/_layout.scss */
+  section.map {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
 
 /* ------- Wedding Info ------ */
