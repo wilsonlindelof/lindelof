@@ -8328,19 +8328,19 @@ img {
 /* line 118, ../sass/partials/_layout.scss */
 section.intro {
   text-align: center;
-  background-color: white;
-  padding-bottom: 225px;
+  background-color: #E0CEE7;/*#d5bdde;*/
+  padding-bottom: 60px;
 }
 @media (max-width: 992px) {
   /* line 118, ../sass/partials/_layout.scss */
   section.intro {
-    padding-bottom: 190px;
+    padding-bottom: 50px;
   }
 }
 @media (max-width: 767px) {
   /* line 118, ../sass/partials/_layout.scss */
   section.intro {
-    padding-bottom: 150px;
+    padding-bottom: 40px;
   }
 }
 
@@ -8355,11 +8355,11 @@ section.intro {
 
 /*-- Registry -- */
 section.registry {
-  background-color: #ffffff;
+  background-color: #fff8e0;
   position: relative;
   z-index: 4;
-  padding-top: 300px;
-  padding-bottom: 225px;
+  padding-top: 70px;
+  padding-bottom: 60px;
 }
 @media (max-width: 1200px) {
   /* line 140, ../sass/partials/_layout.scss */
@@ -8384,11 +8384,11 @@ section.registry {
 
 /*-- Map -- */
 section.map {
-  background-color: #ffffff;
+  background-color: #fff8e0;
   position: relative;
   z-index: 4;
-  padding-top: 300px;
-  padding-bottom: 225px;
+  padding-top: 70px;
+  padding-bottom: 60px;
 }
 @media (max-width: 1200px) {
   /* line 140, ../sass/partials/_layout.scss */
@@ -8414,11 +8414,11 @@ section.map {
 /* ------- Wedding Info ------ */
 /* line 140, ../sass/partials/_layout.scss */
 section.wedding-info {
-  background-color: #ffffff;
+  background-color: #f7dad7;
   position: relative;
   z-index: 4;
-  padding-top: 300px;
-  padding-bottom: 225px;
+  padding-top: 120px;
+  padding-bottom: 60px;
 }
 @media (max-width: 1200px) {
   /* line 140, ../sass/partials/_layout.scss */
@@ -8569,8 +8569,8 @@ section.wedding-info .floral-bottom {
 /* ------- Instafeed ------ */
 /* line 259, ../sass/partials/_layout.scss */
 section.instagram-feed {
-  padding-top: 0;
-  background-color: white;
+  padding-top: 60px;
+  background-color: #fff8e0;
 }
 
 /* line 264, ../sass/partials/_layout.scss */
@@ -8765,7 +8765,7 @@ section.instagram-feed {
 /* line 434, ../sass/partials/_layout.scss */
 section.about-us {
   position: relative;
-  background-image: url(../img/gallery1.jpg);
+  background-image: url(../img/himher2.jpg);
   -moz-background-size: 100%;
   -o-background-size: 100%;
   -webkit-background-size: 100%;
@@ -9340,9 +9340,9 @@ footer a:focus {
   font-family: 'Catamaran', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  background-color: #fe3957;
+  background-color: #c76d7b;
   color: white;
-  border: solid 2px #fe3957;
+  border: solid 2px #c76d7b;
   text-align: center;
   text-transform: uppercase;
   padding: 15px 40px;
@@ -9368,7 +9368,7 @@ footer a:focus {
 }
 /* line 13, ../sass/partials/_button.scss */
 .btn-pink:hover {
-  background-color: #e4334e;
+  background-color: #9F5762;
 }
 
 /* line 18, ../sass/partials/_button.scss */
