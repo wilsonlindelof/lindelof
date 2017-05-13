@@ -8501,6 +8501,8 @@ section.wedding-info .floral-bottom {
   }
 }
 
+
+
 /* line 206, ../sass/partials/_layout.scss */
 .wedding-info-title {
   text-align: center;
@@ -8536,7 +8538,7 @@ section.wedding-info .floral-bottom {
 
 /* line 231, ../sass/partials/_layout.scss */
 .wedding-info-content {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 /* line 234, ../sass/partials/_layout.scss */
 .wedding-info-content .ceremony {
@@ -8563,6 +8565,16 @@ section.wedding-info .floral-bottom {
     width: 100%;
     text-align: center;
     padding-left: 15px;
+  }
+}
+
+.wedding-info-content .schedule {  
+  height: 120px;
+}
+@media (max-width: 768px) {
+  
+  .wedding-info-content .schedule {            
+	height: 50px;
   }
 }
 
@@ -8808,7 +8820,7 @@ section.about-us {
   /* line 434, ../sass/partials/_layout.scss */
   section.about-us {
     padding-top: 0;
-    padding-bottom: 0;
+    padding-bottom: 0;/*468px;*/
   }
 }
 
@@ -8824,7 +8836,7 @@ section.about-us.toTop {
 @media (max-width: 767px) {
   /* line 465, ../sass/partials/_layout.scss */
   .about-us .container {
-    height: 468px;
+    /*height: 100%;/*468px;*/
   }
 }
 @media (max-width: 767px) {
@@ -8858,7 +8870,7 @@ section.about-us.toTop {
 @media (max-width: 767px) {
   /* line 493, ../sass/partials/_layout.scss */
   .the-groom {
-    background-image: url(../images/about-us-him.jpg);
+    background-image: url(../img/abouthim.jpg);
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
@@ -8871,7 +8883,7 @@ section.about-us.toTop {
 @media (max-width: 767px) {
   /* line 504, ../sass/partials/_layout.scss */
   .the-bride {
-    background-image: url(../images/about-us-her.jpg);
+    background-image: url(../img/abouther.jpg);
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
@@ -8916,8 +8928,8 @@ section.about-us.toTop {
     -ms-transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    border-color: #335151;
-    color: #335151;
+    /*border-color: #335151;
+    color: #335151;*/
   }
 }
 @media (max-width: 767px) {
