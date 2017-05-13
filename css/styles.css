@@ -8256,6 +8256,8 @@ img {
   /* line 48, ../sass/partials/_layout.scss */
   .hero {
     background-attachment: scroll;
+	background-position-x: -100px;
+    background-position-y: 0px;
   }
 }
 /* line 62, ../sass/partials/_layout.scss */
@@ -8377,8 +8379,8 @@ section.registry {
 @media (max-width: 768px) {
   /* line 140, ../sass/partials/_layout.scss */
   section.registry {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 0px;/*100px;*/
+    padding-bottom: 0px;/*100px;*/
   }
 }
 
